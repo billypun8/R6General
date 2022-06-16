@@ -6,7 +6,6 @@ module.exports = {
     .setName("showplayer")
     .setDescription("Show R6 team player!"),
   async execute(interaction) {
-    console.log(players.players);
-    await interaction.reply("Player show!");
+    await interaction.reply(players.showPlayerToString());
   },
 };

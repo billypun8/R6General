@@ -1,0 +1,228 @@
+{
+    "attackers": [
+        {
+            "name": "Sledge",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "gray"
+        },
+        {
+            "name": "Thatcher",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "gray"
+        },
+        {
+            "name": "Ash",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 2,
+            "color": "red"
+        },
+        {
+            "name": "Thermite",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "red"
+        },
+        {
+            "name": "Twitch",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 2,
+            "color": "blue"
+        },
+        {
+            "name": "Montagne",
+            "speed": 1,
+            "armor": 3,
+            "difficulty": 3,
+            "color": "blue"
+        },
+        {
+            "name": "Glaz",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 2,
+            "color": "red"
+        },
+        {
+            "name": "Fuze",
+            "speed": 1,
+            "armor": 3,
+            "difficulty": 1,
+            "color": "red"
+        },
+        {
+            "name": "Blitz",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 3,
+            "color": "yellow"
+        },
+        {
+            "name": "IQ",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 3,
+            "color": "yellow"
+        },
+        {
+            "name": "Buck",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Blackbeard",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "yellow"
+        },
+        {
+            "name": "Capitão",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 2,
+            "color": "green"
+        },
+        {
+            "name": "Hibana",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 1,
+            "color": "red"
+        },
+        {
+            "name": "Jackal",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Ying",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 2,
+            "color": "red"
+        },
+        {
+            "name": "Zofia",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Dokkaebi",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 2,
+            "color": "gray"
+        },
+        {
+            "name": "Lion",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "yellow"
+        },
+        {
+            "name": "Finka",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "yellow"
+        },
+        {
+            "name": "Mavrick",
+            "speed": 3,
+            "armor": 1,
+            "difficulty": 2,
+            "color": "gray"
+        },
+        {
+            "name": "Nomad",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 3,
+            "color": "yellow"
+        },
+        {
+            "name": "Grilock",
+            "speed": 1,
+            "armor": 3,
+            "difficulty": 1,
+            "color": "red"
+        },
+        {
+            "name": "Nøkk",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 3,
+            "color": "blue"
+        },
+        {
+            "name": "Amaru",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 2,
+            "color": "green"
+        },
+        {
+            "name": "Kali",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 2,
+            "color": "blue"
+        },
+        {
+            "name": "Iana",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Ace",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "blue"
+        },
+        {
+            "name": "Zero",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "green"
+        },
+        {
+            "name": "Flores",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": 1,
+            "color": "red"
+        },
+        {
+            "name": "Osa",
+            "speed": 2,
+            "armor": 2,
+            "difficulty": null,
+            "color": "yellow"
+        },
+        {
+            "name": "Sens",
+            "speed": 1,
+            "armor": 3,
+            "difficulty": null,
+            "color": "green"
+        }
+    ]
+}

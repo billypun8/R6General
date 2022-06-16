@@ -1,5 +1,5 @@
 class Players {
-  players = ["billy"];
+  players = [];
 
   get players() {
     return this.players;
@@ -7,6 +7,14 @@ class Players {
 
   setPlayer(players) {
     this.players = players;
+  }
+
+  showPlayerToString() {
+    if (this.players.length == 0) {
+      return "No Player!"
+    }
+    let msg = 'Players are ' + this.players.join(', ') + '.';
+    return msg;
   }
 }
 
