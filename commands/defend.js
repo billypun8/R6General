@@ -3,8 +3,8 @@ var general = require("../Class/General.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("attack")
-        .setDescription("Assign attack operator!")
+        .setName("defend")
+        .setDescription("Assign defend operator!")
         .addStringOption((option) =>
             option.setName("filter").setDescription("Set filter type.")
         ).addStringOption((option) =>
@@ -17,20 +17,20 @@ module.exports = {
 
         if (filter) {
             if (!filterType.includes(filter) || !filterValue) {
-                await interaction.reply('Wrong filter type/value. Assign operators without filter.\n\n' + general("attack"));
+                await interaction.reply('Wrong filter type/value. Assign operators without filter.\n\n' + general("defend"));
             } else {
                 try {
                     let intOptions = ['speed', 'armor', 'diff'];
                     if (intOptions.includes(filter)) {
                         filterValue = parseInt(filterValue);
                     }
-                    await interaction.reply(`Assign Attacker with ${filter} = ${filterValue}.\n\n` + general("attack", filter, filterValue));
+                    await interaction.reply(`Assign defender with ${filter} = ${filterValue}.\n\n` + general("defend", filter, filterValue));
                 } catch (error) {
-                    await interaction.reply('Wrong filter value. Assign operators without filter.\n\n' + general("attack"));
+                    await interaction.reply('Wrong filter value. Assign operators without filter.\n\n' + general("defend"));
                 }
             }
         } else {
-            await interaction.reply(general("attack"));
+            await interaction.reply(general("defend"));
         }
     },
 };

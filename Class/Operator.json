@@ -4,225 +4,514 @@
             "name": "Sledge",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "gray"
+            "diff": 1,
+            "color": "gray",
+            "skin": null
         },
         {
             "name": "Thatcher",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "gray"
+            "diff": 1,
+            "color": "gray",
+            "skin": null
         },
         {
             "name": "Ash",
             "speed": 3,
             "armor": 1,
-            "difficulty": 2,
-            "color": "red"
+            "diff": 2,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Thermite",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "red"
+            "diff": 1,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Twitch",
             "speed": 2,
             "armor": 2,
-            "difficulty": 2,
-            "color": "blue"
+            "diff": 2,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Montagne",
             "speed": 1,
             "armor": 3,
-            "difficulty": 3,
-            "color": "blue"
+            "diff": 3,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Glaz",
             "speed": 3,
             "armor": 1,
-            "difficulty": 2,
-            "color": "red"
+            "diff": 2,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Fuze",
             "speed": 1,
             "armor": 3,
-            "difficulty": 1,
-            "color": "red"
+            "diff": 1,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Blitz",
             "speed": 2,
             "armor": 2,
-            "difficulty": 3,
-            "color": "yellow"
+            "diff": 3,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "IQ",
             "speed": 3,
             "armor": 1,
-            "difficulty": 3,
-            "color": "yellow"
+            "diff": 3,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Buck",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "blue"
+            "diff": 1,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Blackbeard",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "yellow"
+            "diff": 1,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Capitão",
             "speed": 3,
             "armor": 1,
-            "difficulty": 2,
-            "color": "green"
+            "diff": 2,
+            "color": "green",
+            "skin": "black"
         },
         {
             "name": "Hibana",
             "speed": 3,
             "armor": 1,
-            "difficulty": 1,
-            "color": "red"
+            "diff": 1,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Jackal",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "blue"
+            "diff": 1,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Ying",
             "speed": 2,
             "armor": 2,
-            "difficulty": 2,
-            "color": "red"
+            "diff": 2,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Zofia",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "blue"
+            "diff": 1,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Dokkaebi",
             "speed": 2,
             "armor": 2,
-            "difficulty": 2,
-            "color": "gray"
+            "diff": 2,
+            "color": "gray",
+            "skin": null
         },
         {
             "name": "Lion",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "yellow"
+            "diff": 1,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Finka",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "yellow"
+            "diff": 1,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Mavrick",
             "speed": 3,
             "armor": 1,
-            "difficulty": 2,
-            "color": "gray"
+            "diff": 2,
+            "color": "gray",
+            "skin": null
         },
         {
             "name": "Nomad",
             "speed": 2,
             "armor": 2,
-            "difficulty": 3,
-            "color": "yellow"
+            "diff": 3,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Grilock",
             "speed": 1,
             "armor": 3,
-            "difficulty": 1,
-            "color": "red"
+            "diff": 1,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Nøkk",
             "speed": 2,
             "armor": 2,
-            "difficulty": 3,
-            "color": "blue"
+            "diff": 3,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Amaru",
             "speed": 2,
             "armor": 2,
-            "difficulty": 2,
-            "color": "green"
+            "diff": 2,
+            "color": "green",
+            "skin": null
         },
         {
             "name": "Kali",
             "speed": 2,
             "armor": 2,
-            "difficulty": 2,
-            "color": "blue"
+            "diff": 2,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Iana",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "blue"
+            "diff": 1,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Ace",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "blue"
+            "diff": 1,
+            "color": "blue",
+            "skin": null
         },
         {
             "name": "Zero",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "green"
+            "diff": 1,
+            "color": "green",
+            "skin": null
         },
         {
             "name": "Flores",
             "speed": 2,
             "armor": 2,
-            "difficulty": 1,
-            "color": "red"
+            "diff": 1,
+            "color": "red",
+            "skin": null
         },
         {
             "name": "Osa",
             "speed": 2,
             "armor": 2,
-            "difficulty": null,
-            "color": "yellow"
+            "diff": null,
+            "color": "yellow",
+            "skin": null
         },
         {
             "name": "Sens",
             "speed": 1,
             "armor": 3,
-            "difficulty": null,
+            "diff": null,
             "color": "green"
+        }
+    ],
+    "defenders": [
+        {
+            "name": "Smoke",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "gray",
+            "skin": null
+        },
+        {
+            "name": "Mute",
+            "speed": 2,
+            "armor": 2,
+            "diff": 1,
+            "color": "gray",
+            "skin": "black"
+        },
+        {
+            "name": "Castle",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "red",
+            "skin": "black"
+        },
+        {
+            "name": "Pulse",
+            "speed": 3,
+            "armor": 1,
+            "diff": 3,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Doc",
+            "speed": 1,
+            "armor": 3,
+            "diff": 1,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Rook",
+            "speed": 1,
+            "armor": 3,
+            "diff": 1,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Kapkan",
+            "speed": 2,
+            "armor": 2,
+            "diff": 1,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Tachanka",
+            "speed": 1,
+            "armor": 3,
+            "diff": 1,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Jäger",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "yellow",
+            "skin": null
+        },
+        {
+            "name": "Bandit",
+            "speed": 3,
+            "armor": 1,
+            "diff": 1,
+            "color": "yellow",
+            "skin": null
+        },
+        {
+            "name": "Frost",
+            "speed": 2,
+            "armor": 2,
+            "diff": 1,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Valkyrie",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "yellow",
+            "skin": null
+        },
+        {
+            "name": "Caveira",
+            "speed": 3,
+            "armor": 1,
+            "diff": 3,
+            "color": "green",
+            "skin": "black"
+        },
+        {
+            "name": "Echo",
+            "speed": 1,
+            "armor": 3,
+            "diff": 3,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Mira",
+            "speed": 1,
+            "armor": 3,
+            "diff": 3,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Lesion",
+            "speed": 2,
+            "armor": 2,
+            "diff": 1,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Ela",
+            "speed": 3,
+            "armor": 1,
+            "diff": 1,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Vigil",
+            "speed": 3,
+            "armor": 1,
+            "diff": 3,
+            "color": "gray",
+            "skin": "black"
+        },
+        {
+            "name": "Alibi",
+            "speed": 3,
+            "armor": 1,
+            "diff": 3,
+            "color": "green",
+            "skin": null
+        },
+        {
+            "name": "Maestro",
+            "speed": 1,
+            "armor": 3,
+            "diff": 2,
+            "color": "green",
+            "skin": null
+        },
+        {
+            "name": "Clash",
+            "speed": 1,
+            "armor": 3,
+            "diff": 3,
+            "color": "gray",
+            "skin": "black"
+        },
+        {
+            "name": "Kaid",
+            "speed": 1,
+            "armor": 3,
+            "diff": 2,
+            "color": "yellow",
+            "skin": null
+        },
+        {
+            "name": "Mozzie",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Warden",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Goyo",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "green",
+            "skin": null
+        },
+        {
+            "name": "Wamai",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "blue",
+            "skin": "black"
+        },
+        {
+            "name": "Oryx",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "blue",
+            "skin": null
+        },
+        {
+            "name": "Melusi",
+            "speed": 3,
+            "armor": 1,
+            "diff": 1,
+            "color": "blue",
+            "skin": "black"
+        },
+        {
+            "name": "Aruni",
+            "speed": 2,
+            "armor": 2,
+            "diff": 2,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Thunderbird",
+            "speed": 3,
+            "armor": 1,
+            "diff": null,
+            "color": "red",
+            "skin": null
+        },
+        {
+            "name": "Thorn",
+            "speed": 2,
+            "armor": 1,
+            "diff": 1,
+            "color": "green",
+            "skin": null
+        },
+        {
+            "name": "Azami",
+            "speed": 2,
+            "armor": 2,
+            "diff": null,
+            "color": "blue",
+            "skin": null
         }
     ]
 }

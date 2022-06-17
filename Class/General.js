@@ -1,4 +1,4 @@
-const { attackers } = require('./Operator.json');
+const { attackers, defenders } = require('./Operator.json');
 var players = require("./Players");
 
 function assign(action, filter = null, filterValue = null) {
@@ -16,14 +16,14 @@ function assign(action, filter = null, filterValue = null) {
         team = attackers;
         oTeam = attackers;
     } else {
-        team = attackers;
-        oTeam = attackers;
+        team = defenders;
+        oTeam = defenders;
     }
 
     // Apply Filter
     if (filter) {
-        filterMsg = `Filter: ${filter}, value=${filterValue}. `;
-        team = team.filter(operator => operator.filter == filterValue);
+        filterMsg = `Filter: ${filter}, Value: ${filterValue}.\n\n`;
+        team = team.filter(operator => operator[filter] == filterValue);
     }
 
     if (team.length == 0) {
@@ -32,7 +32,7 @@ function assign(action, filter = null, filterValue = null) {
         } else {
             team = oTeam;
         }
-        msgPrefix = 'Wrong filter value. Assign operators without filter. '
+        msgPrefix = 'Wrong filter value. Assign operators without filter.\n\n'
         filterMsg = '';
     }
 
@@ -42,20 +42,26 @@ function assign(action, filter = null, filterValue = null) {
         left = oTeam.filter(x => !team.includes(x))
     }
 
+    if (team.length < players.players.length) {
+        for (let index = 0; index < (players.players.length - team.length); index++) {
+            let i = getRandomIndex(team.length);
+            team.push(left[i])
+            left.splice(i, 1);
+        }
+        team = left;
+        filterMsg += "Not enough filtered operator. Use other operators.\n\n";
+    }
+
     // Assign Operators
     let assigned = [];
     players.players.forEach(p => {
-        if (team.length == 0) {
-            team = left;
-        }
         let i = getRandomIndex(team.length);
-        console.log(i);
-
         let o = team[i];
         team.splice(i, 1);
-        assigned.push(p.username + " : " + o.name)
+        assigned.push(p.username + " : " + o.name + ".\n\n")
     });
-    return msgPrefix + filterMsg + assigned.join(", ") + ".";
+
+    return msgPrefix + filterMsg + assigned.join("");
 }
 
 function getRandomIndex(max) {
