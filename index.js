@@ -48,6 +48,9 @@ client.on("interactionCreate", async (interaction) => {
 client.on("message", function (messages) {
   if (messages.content.toLocaleLowerCase() === "hello")
     messages.channel.send("hello" + " " + messages.author.username); //reply hello word message with senders name
+
+  if (messages.content.toLocaleLowerCase() === "hi")
+    messages.channel.send("hi你老母" + " " + messages.author.username); //reply hello word message with senders name
 });
 
 // BOT

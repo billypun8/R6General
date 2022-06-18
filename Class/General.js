@@ -13,27 +13,23 @@ function assign(action, filter = null, filterValue = null) {
     // Choose Team
     let team;
     if (action == "attack") {
-        team = attackers;
-        oTeam = attackers;
+        team = attackers.concat();
+        oTeam = attackers.concat();
     } else {
-        team = defenders;
-        oTeam = defenders;
+        team = defenders.concat();
+        oTeam = defenders.concat();
     }
 
     // Apply Filter
     if (filter) {
         filterMsg = `Filter: ${filter}, Value: ${filterValue}.\n\n`;
+        team = oTeam.concat();
         team = team.filter(operator => operator[filter] == filterValue);
     }
 
     if (team.length == 0) {
-        if (action == "attack") {
-            team = oTeam;
-        } else {
-            team = oTeam;
-        }
-        msgPrefix = 'Wrong filter value. Assign operators without filter.\n\n'
-        filterMsg = '';
+        team = oTeam.concat();
+        msgPrefix = 'Pool is empty. Reset the operator pool. . .\n\n'
     }
 
     // Operator left
@@ -55,6 +51,10 @@ function assign(action, filter = null, filterValue = null) {
     // Assign Operators
     let assigned = [];
     players.players.forEach(p => {
+        if (team.length == 0) {
+            team = oTeam.concat();
+            msgPrefix = 'Pool is empty. Reset the operator pool. . .\n\n'
+        }
         let i = getRandomIndex(team.length);
         let o = team[i];
         team.splice(i, 1);
