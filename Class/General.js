@@ -1,5 +1,9 @@
 const { attackers, defenders } = require('./Operator.json');
 var players = require("./Players");
+var team;
+var oTeam;
+var aoTeam;
+var doTeam;
 
 function assign(action, filter = null, filterValue = null) {
     // Ensure have player
@@ -11,20 +15,26 @@ function assign(action, filter = null, filterValue = null) {
     }
 
     // Choose Team
-    let team;
     if (action == "attack") {
-        team = attackers.concat();
-        oTeam = attackers.concat();
+        // Deep copy in first time
+        aoTeam = aoTeam ?? attackers.concat();
+
+        // Charge target by action type
+        team = attackers;
+        oTeam = aoTeam.concat();
     } else {
-        team = defenders.concat();
-        oTeam = defenders.concat();
+        // Deep copy in first time
+        doTeam = doTeam ?? defenders.concat();
+
+        // Charge target by action type
+        team = defenders;
+        oTeam = doTeam.concat();
     }
 
     // Apply Filter
     if (filter) {
-        filterMsg = `Filter: ${filter}, Value: ${filterValue}.\n\n`;
-        team = oTeam.concat();
-        team = team.filter(operator => operator[filter] == filterValue);
+        filterMsg = `Filter: ${filter}, Value: ${filterValue}.\n\nReset operator pool to apply filter. . .\n\n`;
+        team = oTeam.filter(operator => operator[filter] == filterValue);
     }
 
     if (team.length == 0) {
@@ -38,13 +48,12 @@ function assign(action, filter = null, filterValue = null) {
         left = oTeam.filter(x => !team.includes(x))
     }
 
-    if (team.length < players.players.length) {
+    if (filter && team.length < players.players.length) {
         for (let index = 0; index < (players.players.length - team.length); index++) {
             let i = getRandomIndex(team.length);
             team.push(left[i])
             left.splice(i, 1);
         }
-        team = left;
         filterMsg += "Not enough filtered operator. Use other operators.\n\n";
     }
 
@@ -61,7 +70,7 @@ function assign(action, filter = null, filterValue = null) {
         assigned.push(p.username + " : " + o.name + ".\n\n")
     });
 
-    return msgPrefix + filterMsg + assigned.join("");
+    return filterMsg + msgPrefix + assigned.join("");
 }
 
 function getRandomIndex(max) {
